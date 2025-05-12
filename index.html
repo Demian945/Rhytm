@@ -306,7 +306,7 @@
             </div>
           </div>
         </section>
-        <section class="page__favorite favorite" id="support">
+        <section class="page__favorite favorite">
           <div class="favorite__container">
             <div class="favorite__body">
               <h2 class="favorite__title title">
@@ -324,6 +324,37 @@
             <div class="favorite__images">
               <img src="img/favorite/image.jpg" alt="Image" />
             </div>
+          </div>
+        </section>
+
+        <section class="page__info info" id="support">
+          <div class="info__container">
+            <h2 class="info__title">
+              Enter your info to receive <span>notifications</span> about
+              inventory updates
+            </h2>
+            <form action="process_form.php" method="post" class="info__form">
+              <input
+                placeholder="Name"
+                type="text"
+                class="info__name"
+                name="name"
+              />
+              <input
+                placeholder="Email"
+                type="email"
+                class="info__email"
+                name="email"
+              />
+              <input
+                placeholder="Phone Number"
+                type="tel"
+                class="info__number"
+                name="phone"
+                maxlength="10"
+              />
+              <button class="info__button" type="submit">Send Info</button>
+            </form>
           </div>
         </section>
       </main>

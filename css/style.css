@@ -895,6 +895,64 @@ li {
   }
 }
 
+/* ======================================== Form ======================================== */
+.page__info {
+}
+.info {
+  /* border: 1px solid #000; */
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+.info__container {
+  text-align: center;
+}
+.info__form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+  gap: 20px;
+}
+.info___title {
+  color: #000;
+  font-size: 34px;
+  line-height: 140%;
+}
+.info__title span {
+  color: #ff6428;
+}
+.info input {
+  height: 50px;
+  border-radius: 5px;
+  width: 550px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #000;
+  font-size: 16px;
+}
+.info__name {
+}
+.info__email {
+}
+.info__number {
+}
+.info__button {
+  text-align: center;
+  padding: 18.5px 48px;
+  background-color: #ff6428;
+  border-radius: 40px;
+  color: #fff;
+  font-weight: 600;
+  line-height: 28px;
+  transition: all 0.3s ease 0s;
+  width: 300px;
+}
+.info__button:hover {
+  color: #fff;
+  background-color: #ba4619;
+}
+
 /* ----------------------------------- */
 
 .footer {
